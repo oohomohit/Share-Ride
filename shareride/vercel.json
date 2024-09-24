@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path(.*)",
+      "destination": "https://share-ride-backend.vercel.app/:path"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
