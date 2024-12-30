@@ -25,4 +25,37 @@ Follow these steps to set up the project locally:
 1. **Clone the Repository**:  
    ```bash  
    git clone https://github.com/yourusername/share-ride.git  
-   cd share-ride  
+   cd share-ride
+
+ # Backend  
+   ```bash
+   cd backend  
+   npm install
+   ```
+# Frontend  
+   ```bash
+   cd ../frontend  
+   npm install  
+```
+# Set Up Environment Variables:
+Create a .env file in the backend directory with the following variables:
+ ```bash
+ MONGO_URI=your_mongo_database_uri  
+ JWT_SECRET=your_jwt_secret
+```
+# Backend  
+```bash
+cd backend  
+npm start
+```
+
+# Frontend  
+```bash
+cd ../frontend  
+npm start
+```
+# Project Structure
+share-ride/  
+├── backend/       # Backend code (Node.js + Express.js)  
+├── frontend/      # Frontend code (React.js)  
+├── README.md      # Project documentation  
