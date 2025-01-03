@@ -34,7 +34,7 @@ Follow these steps to set up the project locally:
    ```
 # Frontend  
    ```bash
-   cd ../frontend  
+   cd shareride  
    npm install  
 ```
 # Set Up Environment Variables:
