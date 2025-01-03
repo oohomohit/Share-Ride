@@ -51,11 +51,11 @@ npm start
 
 # Frontend  
 ```bash
-cd ../frontend  
+cd shareride  
 npm start
 ```
 # Project Structure
 share-ride/  
 ├── backend/       # Backend code (Node.js + Express.js)  
-├── frontend/      # Frontend code (React.js)  
+├── shareride/      # Frontend code (React.js)  
 ├── README.md      # Project documentation  
